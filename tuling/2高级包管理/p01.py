@@ -4,9 +4,11 @@ class Student():
 		self.age=age
 
 	def say(self):
-		print(self.name)
+		print('我的名字是{0}'.format(self.name))
 
-def SayHello():
+def sayHello():
 	print('SayHello')
 
+if __name__ == '__main__':
 
+	print(213)
