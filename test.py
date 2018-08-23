@@ -29,3 +29,4 @@ class Person:
 	def fdel(self):
 		pass
 	name = property(fget,fset,fdel,'123')
+	##@!
