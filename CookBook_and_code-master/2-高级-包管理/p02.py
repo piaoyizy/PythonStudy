@@ -1,7 +1,10 @@
-import p01
 
-stu = p01.Student("xiaojign", 19)
+import  importlib
+
+stu1=importlib.import_module('p01')
+
+stu = stu1.Student("xiaojign", 19)
 
 stu.say()
 
-p01.sayHello()
+stu1.sayHello()
