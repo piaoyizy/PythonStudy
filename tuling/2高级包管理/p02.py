@@ -5,13 +5,15 @@
 #
 # p01.SayHello()
 
-from importlib import  import_module
+from importlib import import_module
 import importlib as importAs
+#
+#
+# stu=importAs.import_module('p01')
+# stu1 =stu.
+#
+#
+import p01
 
-
-stu=importAs.import_module('p01')
-stu1 =stu.Student()
-stu1.say()
-
-
-
+p2 = p01.Person('123', 12, '123')
+p2.sayHello()

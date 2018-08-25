@@ -1,15 +1,3 @@
-class Student():
-    def __init__(self, name='NoName', age=18):
-        self.name = name
-        self.age = age
-
-    def say(self):
-        print('我的名字是{0}'.format(self.name))
-
-
-
-
-
 class Person():
     def __init__(self, name, age, hobby):
         self.name = name
@@ -25,3 +13,5 @@ class MyClass:
         print("fun1")
 
 
+me: MyClass = MyClass()
+me.fun1()
