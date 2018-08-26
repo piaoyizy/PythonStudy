@@ -53,11 +53,12 @@ t1 = datetime.now()
 print(type(t1))
 print(t1.strftime("%Y-%m-%d %H:%M:%S"))
 
+print('*' * 20)
+# datetime.timedelt
 # datetime 加 1小时
 td = timedelta(days=1, hours=2)
 
 print((t1 - td).strftime("%Y-%m-%d %H:%M:%S"))
 
-
-t2=datetime(2015,1,1)
-print(not (t1 - t2).days3)
+t2 = datetime(2015, 1, 1)
+print((t1 - t2).days)
