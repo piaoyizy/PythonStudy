@@ -22,6 +22,6 @@ class Person():
 
 class MyClass:
     def fun1(self):
-        print("fun1")
+        print("fun15645444")
 
 

@@ -1,10 +1,5 @@
-from p01 import Student,sayHello
-from p01 import *
-stu=Student()
-stu.say()
-sayHello()
-
-
+import p01
+ 
 # import p01
 # import importlib
 # importlib.import_module('p01')
