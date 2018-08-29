@@ -48,5 +48,11 @@ with open(r'test03xu.txt', 'wb')as f:
 with open(r'test03xu.txt', 'rb')as f:
 	print('反实例化:{0}'.format(pickle.load(f)))
 
+import shelve
+import  logging
+# try:
+#  shv=shelve.open
+# finally:
+# 	shv.close()
 
-
+logging(1,'123')
